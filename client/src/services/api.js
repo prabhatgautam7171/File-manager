@@ -1,4 +1,4 @@
-export const API_URL = "http://localhost:8000/api";
+export const API_URL = "https://file-manager-backend-li0e.onrender.com/api";
 
 export const getFolderContents = async (folderId = "root") => {
   const response = await fetch(`${API_URL}/folders/${folderId}`);
